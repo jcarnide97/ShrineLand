@@ -1,0 +1,62 @@
+{
+	"textures": [
+		{
+			"image": "backbtnspt.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 176,
+				"h": 88
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "backBtn.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 5,
+						"w": 86,
+						"h": 86
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 86,
+						"h": 86
+					}
+				},
+				{
+					"filename": "backBtnSelc.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 5,
+						"w": 86,
+						"h": 86
+					},
+					"frame": {
+						"x": 89,
+						"y": 1,
+						"w": 86,
+						"h": 86
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:a5278109f73f093dd221a561116f21a7:f24d63c2fab4897fa2493f023fc668cc:080b99fe6b4701e5e594ae35a70e8c69$"
+	}
+}

@@ -1,0 +1,62 @@
+{
+	"textures": [
+		{
+			"image": "level4spt.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 196,
+				"h": 98
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "level4Btn.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 96,
+						"h": 96
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 96,
+						"h": 96
+					}
+				},
+				{
+					"filename": "level4BtnSelc.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 96,
+						"h": 96
+					},
+					"frame": {
+						"x": 99,
+						"y": 1,
+						"w": 96,
+						"h": 96
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:47f2edf15249373b59970506db3380ee:51e6485fe7fe38d2845bab8651ae9523:32283b4c93eceb188ea8f6f6a2a8df5a$"
+	}
+}

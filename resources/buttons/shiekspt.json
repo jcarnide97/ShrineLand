@@ -1,0 +1,62 @@
+{
+	"textures": [
+		{
+			"image": "shiekspt.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 196,
+				"h": 98
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "shiekBtn.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 96,
+						"h": 96
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 96,
+						"h": 96
+					}
+				},
+				{
+					"filename": "shiekBtnSelc.gif",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 96,
+						"h": 96
+					},
+					"frame": {
+						"x": 99,
+						"y": 1,
+						"w": 96,
+						"h": 96
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:cb3459661f0ab1961fd1c4123cdc2bbf:eebbfd26ca7ce446d5a6cd173e08cccc:f74c38c89904b793afdb2e007ad8d96f$"
+	}
+}
