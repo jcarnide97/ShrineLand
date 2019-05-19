@@ -4,7 +4,7 @@ class Level2s extends Phaser.Scene {
     }
     preload() {
         this.load.image('desert', '../ShrineLand/resources/backgrounds/Desert.png');
-        this.load.spritesheet('shiek', '../ShrineLand/resources/characters/shiekSheet.png', {frameWidth: 127, frameHeight: 98});
+        this.load.spritesheet('shiek', '../ShrineLand/resources/characters/shiekSheet.png', {frameWidth: 83.9, frameHeight: 68});
         this.load.image('shuriken', '../ShrineLand/resources/coins/shuriken.png');
         this.load.spritesheet('mummy', '../ShrineLand/resources/enemies/giantMummySheet.png', {frameWidth: 100, frameHeight: 180});
         this.load.image('shrine', '../ShrineLand/resources/logo/shrineDoor.png');
