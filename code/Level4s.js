@@ -6,7 +6,7 @@ class Level4s extends Phaser.Scene{
     preload() {
         this.nCoins=0;
         this.load.image('cemetery', '../ShrineLand/resources/backgrounds/Cemetery.png');
-        this.load.spritesheet('zaraG', '../ShrineLand/resources/characters/zaraGSheet.png', {frameWidth: 85, frameHeight: 96});
+        this.load.spritesheet('zaraG', '../ShrineLand/resources/characters/zaraGSheet.png', {frameWidth: 83.9, frameHeight: 68});
         this.load.image('leaf', '../ShrineLand/resources/coins/goldenLeaf.png');
         this.load.image('boo', '../ShrineLand/resources/enemies/booNoSheet.png');
         this.load.image('shrine', '../ShrineLand/resources/logo/shrineDoor.png');
