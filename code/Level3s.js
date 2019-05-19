@@ -5,7 +5,7 @@ class Level3s extends Phaser.Scene {
 
     preload() {
         this.load.image('ice', '../ShrineLand/resources/backgrounds/Ice.png');
-        this.load.spritesheet('popo', '../ShrineLand/resources/characters/popoSheet.png', {frameWidth: 128, frameHeight: 82});
+        this.load.spritesheet('popo', '../ShrineLand/resources/characters/popoSheet.png', {frameWidth: 83.9, frameHeight: 68});
         this.load.image('snowflake', '../ShrineLand/resources/coins/goldenSnowflake.png');
         this.load.image('jackFrost', '../ShrineLand/resources/enemies/jackFrostNoSheet.png');
         this.load.image('shrine', '../ShrineLand/resources/logo/shrineDoor.png');
