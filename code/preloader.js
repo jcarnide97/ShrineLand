@@ -25,7 +25,6 @@ class preloader extends Phaser.Scene{
         this.load.image('creditsmenu','../ShrineLand/resources/backgrounds/CredictsMenu.png')
         this.load.image('adventure','../ShrineLand/resources/buttons/adventureBtn.png')
         this.load.image('credits','../ShrineLand/resources/buttons/creditsBtn.png')
-        this.load.image('exit','../ShrineLand/resources/buttons/exitBtn.png')
         this.load.image('survival','../ShrineLand/resources/buttons/survivalBtn.png')
         this.load.image('helpb','../ShrineLand/resources/buttons/helpBtn.png')
         this.load.image('helpSel','../ShrineLand/resources/buttons/helpBtnSelc.png')

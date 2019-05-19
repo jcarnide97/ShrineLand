@@ -7,8 +7,7 @@ class MainMenu extends Phaser.Scene{
         let aventura=this.add.image(500,180,'adventure').setOrigin(0,0)
         let survival = this.add.image(500,255,'survival').setOrigin(0,0)
         let creditos = this.add.image(500,330,'credits').setOrigin(0,0)
-        let exit = this.add.image(500,405,'exit').setOrigin(0,0)
-        let helpb =this.add.sprite(550,481,'help').setOrigin(0,0)
+        let helpb =this.add.sprite(550,482,'help').setOrigin(0,0)
         let sound =this.add.sprite(600,480,'sound').setOrigin(0,0)
         if(gameState.track==undefined)
             gameState.track=this.sound.add('track',{loop:true})
@@ -50,10 +49,6 @@ class MainMenu extends Phaser.Scene{
         creditos.setInteractive({useHandCursor:true})
         creditos.on('pointerdown',()=>{
             this.scene.start('CreditsMenu')
-        })
-        exit.setInteractive({useHandCursor:true})
-        exit.on('pointerdown',function(){
-            this.sys.game.destroy(true);
         })
     }
 }
